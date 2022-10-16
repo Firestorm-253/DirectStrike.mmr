@@ -1,0 +1,6 @@
+﻿
+- Make sure the decoder orders the players in the correct team lmao.
+	=> Conclusion: It varies. it's not always the same...
+- Use battlenet-ID (keep re-setting a players name whenever a new game gets played by the "id" to keep the name updated)
+- Change the "doubleGameCheck" so it does it after all replays are loaded and not before ever single replay gets accepted.
+  remove doubleGames after not adding them in the first plays.

@@ -1,0 +1,10 @@
+﻿
+- ReplayDecoder: does hasLeaver gets triggered when the leaver is the uploader??
+	- implement leaverPunishment and looserNeutrality
+		(the looser team stays unchanged.
+		the winnerTeam gains the normal mmr but the looser takes the negative sum of the gained mmr.
+		if there are multiple leavers, they split it)
+
+- uploader
+- matchup-combination-values
+- website

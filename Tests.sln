@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test 1", "Test 1\Test 1.csproj", "{65E177BA-A57B-4DD8-AEEC-637F9737E690}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "test_1.dotNet", "test_1.dotNet\test_1.dotNet.csproj", "{06A4F245-A02E-4404-ACC7-45E06F3100AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReplayDecoderAndSerializer", "ReplayDecoderAndSerializer\ReplayDecoderAndSerializer.csproj", "{1608FB23-986A-4692-BA1B-8D0FCA770A2B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataVisualizer", "..\DataVisualizer\DataVisualizer.csproj", "{37BE0AC9-38B3-43F1-810E-A1F806339D1E}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "database_test_1", "database_test_1\database_test_1.sqlproj", "{F40B5015-2BC6-4C4B-9A37-8C92A530230E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaxDbUsageTest", "PaxDbUsageTest\PaxDbUsageTest.csproj", "{A9A56453-8644-45BE-8082-C908D6C96735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65E177BA-A57B-4DD8-AEEC-637F9737E690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65E177BA-A57B-4DD8-AEEC-637F9737E690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65E177BA-A57B-4DD8-AEEC-637F9737E690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65E177BA-A57B-4DD8-AEEC-637F9737E690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06A4F245-A02E-4404-ACC7-45E06F3100AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A4F245-A02E-4404-ACC7-45E06F3100AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A4F245-A02E-4404-ACC7-45E06F3100AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A4F245-A02E-4404-ACC7-45E06F3100AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1608FB23-986A-4692-BA1B-8D0FCA770A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1608FB23-986A-4692-BA1B-8D0FCA770A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1608FB23-986A-4692-BA1B-8D0FCA770A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1608FB23-986A-4692-BA1B-8D0FCA770A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37BE0AC9-38B3-43F1-810E-A1F806339D1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BE0AC9-38B3-43F1-810E-A1F806339D1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BE0AC9-38B3-43F1-810E-A1F806339D1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BE0AC9-38B3-43F1-810E-A1F806339D1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40B5015-2BC6-4C4B-9A37-8C92A530230E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40B5015-2BC6-4C4B-9A37-8C92A530230E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40B5015-2BC6-4C4B-9A37-8C92A530230E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F40B5015-2BC6-4C4B-9A37-8C92A530230E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40B5015-2BC6-4C4B-9A37-8C92A530230E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40B5015-2BC6-4C4B-9A37-8C92A530230E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A9A56453-8644-45BE-8082-C908D6C96735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A56453-8644-45BE-8082-C908D6C96735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A56453-8644-45BE-8082-C908D6C96735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A56453-8644-45BE-8082-C908D6C96735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2D04708F-0C06-4FF7-BA68-4ABD458AF3EA}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<ValidateExecutableReferencesMatchSelfContained>false</ValidateExecutableReferencesMatchSelfContained>
+	</PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<PackageReference Include="CsvHelper" Version="29.0.0" />
+		<PackageReference Include="IronPython.StdLib" Version="2.7.12" />
+		<PackageReference Include="Microsoft.NETCore.Platforms" Version="6.0.6" />
+		<PackageReference Include="s2protocol.NET" Version="0.6.6" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Reference Include="pax.dsstats.parser">
+		  <HintPath>..\..\..\..\..\..\..\Downloads\sc2dsstats-maui\sc2dsstats-maui\pax.dsstats.parser\bin\Debug\net6.0\pax.dsstats.parser.dll</HintPath>
+		</Reference>
+		<Reference Include="pax.dsstats.shared">
+			<HintPath>..\..\..\..\..\..\..\Downloads\sc2dsstats-maui\sc2dsstats-maui\pax.dsstats.parser\bin\Debug\net6.0\pax.dsstats.shared.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>
